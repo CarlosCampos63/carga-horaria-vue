@@ -1,13 +1,13 @@
 language: node_js
+
 node_js: 8
-script:
-- echo "$FIREBASE_TOKEN"
+
 install:
-- npm install
-- npm install -g firebase-tools
-- npm run build
+  - npm run build
+
 deploy:
   provider: firebase
   token:
     secure: "uaXtumEMmqLR+tQ0IcVUsfTt3h2XPEETZ0S0IMKn+UALfPa/j+QzBj4+mWmLIq0+Srd4eed2SSj9lIomClZFyipA4+pZaV5hcrgT6YNffoirF+a65dAEdreqBsU5AndjpcSGQoSIQpXjfWVp9ukaXCDSVr0OoY+2bk1zsQHJCa3jAPPPKDspQuLSgXzgRq2WzHDy6LF73aVO8cw+RpgwDplSbW6EEvJK1VFeIos8VuqetYKgv9oyGTK+jh9dIKbqYvhZi0NVUAUh0qkJQZF9RZrMg6gS5e+dPmTcHV9b5N3Xg5ZyaXgdvoYEGwlncd1uy1JU2XoZGyQfbiKSu5CTlhjzgGI8qm7/ZRfe8dX8UY2rq+IiR7ysd4KkePpH6knC9ioTpZ8RF4oq535Myrm5tPo0fbbTurankuuJBEilIv4dkGFm+ATH/MWv+6XF0Ifs/dd8EkbYcbp3KQ3o1xVgFNwADMr25RdmJIv47xl0qSpMXVasHjuPYqRXbq+Ghz78xMe/v3i8F4VV4E8YNLdN6AhOPolUSJfRo5uFJBMgVK1e5B6fljEywjnjmwMhSfqZqbuS9Zh8vCwJZOwgZSqd9mUGG7Zd/bO8NrnOdwCsfcQUm4zqPXH4fBLqOaMpfurvw29DlTnitMhuoKfK/JEbcpLVf+tDLh7RPZaNZoRsbR4="
+
 cache: npm
