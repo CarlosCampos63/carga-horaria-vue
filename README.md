@@ -1,4 +1,5 @@
-# carga-horaria-vue
+[![Build Status](https://travis-ci.com/CarlosCampos63/carga-horaria-vue.svg?branch=master)](https://travis-ci.com/CarlosCampos63/carga-horaria-vue)
+# carga-horaria-vue 
 
 ## Project setup
 ```
