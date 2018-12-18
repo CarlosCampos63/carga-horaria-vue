@@ -9,6 +9,6 @@ install:
 deploy:
   provider: firebase
   token: 
-    secure: "cF/yMZdP3Vcl+H3/LArZSVUhz5tSipZ1OnV/bYxJmSWEoywIpNGTsDOjd9G139IXJPnlqg6JX0bsW4z+StN/ItIf3fvo84U6Zi3h1qT/DSAlkX9kaLAmRK7RpmC5qVnDLuGBDdSAFbhnX5PEQzLuDhe7OlzLvOC2hatyy3yK+RkSXQJeYMvJONZCORidPZzZmiNmiSm6mw3j6YLrGuG3LM6DFTWW+CdUHXgN1cOzwUT7V9SfM9ZBwzue2brx9a6N9v1IcggqYxpZWyY0+Q72e1mGuprCMII5E02GK/uZrKvnzZVY6XVn5sIS8FvndvTpPLB56lJ+4SUHEprNiEmTplppCu59rCbo3d8X9Z+MZgcg90Drcz8VU+J6D15ZTz4rHEnjxdCStTKZfmT7PUZALyCmUCELam5z5zQrrVvY78GpD5ey3vfZdrtsEWhnYeL4fTC+3DvuSPLYmLWRgHjRVm+axViPY2Sem/HogcFY36zDnp/6lKncSN1ZxBXzjQ0NzscH1rXLTHiqOiF6+LltL7ByxyPtei41OyI+JzniEOhS0/HHQHoKhFLiu8HRI26whrQXSSdK/LajX7YATMmd6nYLmT0xQ6f3TkkMa4qp/0v+nTGxwhmQNermBy50flfUdHugaJaPZJwZJ3v7ZljDWmfkXQ+6jJfx/zcs7fR6aP4="
+    secure: "$FIREBASE_TOKEN"
 
 cache: npm
